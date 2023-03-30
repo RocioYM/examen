@@ -1,0 +1,109 @@
+.barra{
+    background-color: #8a038a;
+}
+.barra .e p{
+    color: #fff;
+}
+.barra .e h1{
+    color: #fff;
+
+}
+h1{
+    color: rgb(29, 2, 150);
+}
+
+button {
+    color: #fff;
+    background-color: #8a038a;
+}
+
+.header{
+    margin-top: 1px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 45px;
+}
+
+li{
+    display: inline;
+}
+
+.logo{ 
+    height: 100%;
+}
+
+.navbar{
+    text-align: left;
+    color: #520755;
+    font-weight: 500;
+}
+
+.actions{
+    text-align: left;
+    font-size: 14px;
+}
+
+.actions > * {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.publish h3{
+    color: #24949c;
+}
+
+.video{
+    display: flex;
+    width: 75%;
+    margin-left: 150px;
+}
+
+.features{
+    background-color: #037a83;
+    display: grid;
+    padding: 1% 5%;
+    grid-template-columns: repeat(4,515px); /* se agregan 2 columnas de 300px*/
+    grid-template-rows: repeat(2, 500px);
+}
+
+/* article{
+    background-color: rgb(31, 181, 131);
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+} */
+
+.features .feature-card {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 300px;
+    background-color: #fff;
+    border: 2px solid #D91512;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.features .feature-card .feature-content{
+    padding: 10px 20px 40px 40px;
+    flex: 2;
+}
+
+.features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+}
+
+.features .feature-card .feature-content img{
+    width: 70px;
+}
+
